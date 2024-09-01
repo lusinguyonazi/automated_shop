@@ -1,0 +1,85 @@
+.order-items table {
+    width: 100%;
+    border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 0.9166em;
+    }
+    .order-items table .qty, div table .source, div table .destin {
+      width: 15%;
+    }
+    .order-items table .item {
+      width: 50%;
+    }
+    .order-items table .del {
+      width: 5%;
+    }
+    .order-items table thead {
+      display: table-div-group;
+      vertical-align: middle;
+      border-color: inherit;
+    }
+    .order-items table thead th {
+      padding: 5px 10px;
+      background: #1976D2;
+      border-bottom: 5px solid #FFFFFF;
+      border-right: 4px solid #FFFFFF;
+      text-align:center;
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    .order-items table thead th:last-child {
+      border-right: none;
+    }
+    .order-items table thead .item {
+      text-align: left;
+    }
+    .order-items table thead .qty {
+      text-align: center;
+    }
+    .order-items table tbody td {
+      padding: 0px;
+      background: #F5F5F5;
+      color: #424242;
+      text-align: center;
+      border-bottom: 5px solid #FFFFFF;
+      border-right: 4px solid #F5F5F5;
+    }
+    .order-items table tbody td:last-child {
+      border-right: none;
+    }
+    .order-items table tbody h4 {
+      margin-bottom: 5px;
+      color: #1976D2;
+      font-weight: 400;
+    }
+    .order-items table tbody .item {
+      text-align: left;
+    }
+    .order-items table tbody .qty {
+      text-align: center;
+    }
+
+    .order-items table tbody .del {
+      text-align: center;
+    }
+
+    /* enable absolute positioning */
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .myaddon {
+  position: absolute;
+  padding: 5px;
+  pointer-events: none;
+}
+
+/* align glyph */
+.left-addon .myaddon  { left:  0px;}
+.right-addon .myaddon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }

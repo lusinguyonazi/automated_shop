@@ -1,0 +1,44 @@
+{
+    "name": "raggitech/laravel-currency",
+    "description": "Laravel - Multi Currencies For Model.",
+    "keywords": [
+        "php",
+        "laravel",
+        "currencies",
+        "currency",
+        "money"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moamen Eltouny",
+            "email": "support@raggitech.com",
+            "homepage": "https://raggitech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "laravel/framework": ">=6.0",
+        "raggitech/laravel-readable": "^1.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaggiTech\\Laravel\\Currency\\CurrencyServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "RaggiTech\\Laravel\\Currency\\": "src"
+        },
+        "files": [
+            "src/Helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
